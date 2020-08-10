@@ -1,3 +1,16 @@
+@media only screen and (max-width: 600px) {
+  .search-button, .search-bar {
+    border-radius: 8px !important;
+    margin: 5px !important;
+  }
+
+  .header {
+    padding-bottom: 2.5rem !important; 
+  }
+
+}
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +48,126 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.c {
+  cursor: pointer;
+  will-change: transform, opacity;
+}
+
+ol, ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: left;
+}
+
+.recipeTile {
+  border: #ccc 1px solid;
+  width: 30rem;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #fff;
+  height: auto;
+}
+
+.recipes-wrapper {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around
+}
+
+.see_ingredients{
+  color: #28a4af;
+  z-index: 10;
+}
+
+.search-form {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  height: 4rem;
+  align-items: center;
+}
+
+.search-button {
+    background-color: #28a4af;
+    color: #fff;
+    border-radius: 0 7px 7px 0;
+    font-size: 1.2rem;
+    border: 1px solid #28a4af;
+    padding: 7px;
+}
+
+.search-bar {
+   font-size: 1.5rem;
+    padding: 4px;
+    border-radius: 7px 0 0 7px;
+    border: solid #28a4af 1px;
+    
+    width: 20rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  /** background image */
+  background-image: url("./assets/images/bg1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.header {
+  background-color: #f8f8f8;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 2rem; 
+  opacity: .99;
+ border-radius: 0 0px 0px 0px
+}
+
+.logo-img {
+  width: 8rem;
+  border-radius: 1001px;
+  padding: 1rem;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.description {
+  font-size: 1.5rem;
+  width: 80%;
+  margin: 5rem auto;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #fff;
+  padding-bottom: 0 !important;
+  display: flex;
+  flex-flow: column;
+}
+
+.desc-knifes {
+  width: 10rem;
+  margin: auto;
+}
+
+.recipe-src {
+  font-style: italic;
+}
+
+.footer {
+  background-color: #fff;
+  padding: 1px 30px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between
 }
