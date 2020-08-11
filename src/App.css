@@ -111,7 +111,6 @@ ol, ul {
 body {
   margin: 0;
   padding: 0;
-
   /** background image */
   background-image: url("./assets/images/bg1.jpg");
   background-repeat: no-repeat;
